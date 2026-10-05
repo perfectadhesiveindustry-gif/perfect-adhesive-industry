@@ -4,6 +4,7 @@ import asiafixEdge from "@/assets/asiafix-edge.jpg.asset.json";
 import asiafixCartons from "@/assets/asiafix-cartons.jpg.asset.json";
 import bulkPackaging from "@/assets/bulk-packaging.jpg.asset.json";
 import precisionGlue from "@/assets/precision-super-glue.jpg.asset.json";
+import sfg50 from "@/assets/super-fast-glue-50gm.jpg.asset.json";
 
 export const COMPANY = "Perfect Adhesive Industry";
 export const WHATSAPP_DISPLAY = "+92 312 7174808";
@@ -70,6 +71,18 @@ const specs = (overrides: Partial<Record<string, string>> = {}): Spec[] =>
   ].map((label) => ({ label, value: overrides[label] ?? TBP }));
 
 export const PRODUCTS: Product[] = [
+  {
+    slug: "pai-super-fast-glue-50gm",
+    name: "P.A.I Super Fast Glue 50gm",
+    line: "50gm bottle · Available in 1g, 2g, 20g, 50g",
+    image: sfg50.url,
+    summary:
+      "P.A.I Super Fast Glue in a 50gm bottle with spare nozzles, supplied in single and multi-pack boxes. Also available in 1g, 2g and 20g sizes.",
+    applications: ["Metals", "Rubber", "Plastic", "Wood", "Ceramics"],
+    industries: ["Retail", "Hardware stores", "Workshops", "Furniture & fittings"],
+    packaging: "50gm bottle in individual box · Multi-pack carton · Sizes: 1g, 2g, 20g, 50g",
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive · Spare nozzles included" }),
+  },
   {
     slug: "pai-super-fast-glue",
     name: "P.A.I Super Fast Glue",
