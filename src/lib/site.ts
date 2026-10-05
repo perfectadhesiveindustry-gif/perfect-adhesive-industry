@@ -57,6 +57,8 @@ export type Product = {
   industries: string[];
   packaging: string;
   specs: Spec[];
+  /** When true, the parameter table shows only `specs` (no application/packaging rows). */
+  specsOnly?: boolean;
 };
 
 const specs = (overrides: Partial<Record<string, string>> = {}): Spec[] =>
@@ -135,14 +137,15 @@ export const PRODUCTS: Product[] = [
   {
     slug: "bulk-industrial-supply",
     name: "Bulk Industrial Supply",
-    line: "20 kg · 25 kg · 1000 kg",
+    line: "100 kg · 500 kg · 1000 kg",
     image: bulkPackaging.url,
     summary:
       "Adhesive supplied in bulk industrial containers for manufacturers and high-volume buyers.",
     applications: ["High-volume production lines", "Industrial and contract manufacturing"],
     industries: ["Manufacturers", "Industrial buyers", "Distributors"],
-    packaging: "20 kg/drum · 25 kg/drum · 1000 kg IBC tote",
-    specs: specs({ "Other Specifications": "Specifications depend on the adhesive grade ordered — contact us" }),
+    packaging: "100 kg · 500 kg · 1000 kg",
+    specsOnly: true,
+    specs: [{ label: "Weight", value: "100 kg · 500 kg · 1000 kg" }],
   },
 ];
 
