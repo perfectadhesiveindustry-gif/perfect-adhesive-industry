@@ -144,7 +144,7 @@ function Home() {
           <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">{OWNER_NAME}</h2>
           <p className="mt-1 font-mono text-sm uppercase tracking-wider text-muted-foreground">{OWNER_TITLE} · {COMPANY}</p>
           <p className="mt-5 max-w-xl leading-relaxed text-muted-foreground">
-            [Short professional introduction — to be provided by the owner.]
+            Hafiz Moazzam Hussain leads Perfect Adhesive Industry with a focus on consistent quality, honest dealing and dependable supply. Under his direction, P.A.I serves retailers, distributors and manufacturers with adhesives they can trust, backed by direct, personal service.
           </p>
           <Link to="/about" className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-accent hover:underline">About the company <ArrowRight className="size-4" /></Link>
         </div>

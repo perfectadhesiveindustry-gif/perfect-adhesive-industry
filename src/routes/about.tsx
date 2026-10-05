@@ -46,8 +46,7 @@ function About() {
             Our products include P.A.I Super Fast Glue, P.A.I Precision and Extra Super Glue, and Asiafix Edge
             Ultra Fixer for PVC edge banding, with bulk supply available for manufacturers.
           </p>
-          <p className="mt-4 text-sm italic text-muted-foreground/80">[Additional company history — to be provided.]</p>
-        </div>
+                  </div>
         <img src={staff.url} alt="P.A.I team at the production facility" className="w-full border" />
       </section>
 
@@ -69,7 +68,7 @@ function About() {
           <p className="eyebrow text-primary">Leadership</p>
           <h2 className="mt-3 text-4xl font-extrabold">{OWNER_NAME}</h2>
           <p className="mt-1 font-mono text-sm uppercase tracking-wider text-muted-foreground">{OWNER_TITLE}</p>
-          <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">[Short professional introduction — to be provided by the owner.]</p>
+          <p className="mt-6 max-w-xl leading-relaxed text-muted-foreground">Hafiz Moazzam Hussain leads Perfect Adhesive Industry with a focus on consistent quality, honest dealing and dependable supply. Under his direction, P.A.I serves retailers, distributors and manufacturers with adhesives they can trust, backed by direct, personal service.</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <WhatsAppButton href={whatsappLink()} label="Contact via WhatsApp" />
             <EmailButton href={mailtoLink()} />
