@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
     applications: ["Metals", "Rubber", "Plastic", "Wood", "Ceramics"],
     industries: ["Retail", "Hardware stores", "Workshops", "Furniture & fittings"],
     packaging: "50gm bottle in individual box · Multi-pack carton · Sizes: 1g, 2g, 20g, 50g",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive · Spare nozzles included" }),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive · Spare nozzles included" }),
   },
   {
     slug: "pai-super-fast-glue",
@@ -95,7 +95,7 @@ export const PRODUCTS: Product[] = [
     applications: ["General-purpose bonding", "Household and workshop repairs"],
     industries: ["Retail", "Hardware stores", "Workshops"],
     packaging: "Retail box with D20 bottle",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "pai-super-fast-glue-display",
@@ -107,7 +107,7 @@ export const PRODUCTS: Product[] = [
     applications: ["Counter display for retail shops", "Wholesale distribution"],
     industries: ["Retailers", "Wholesalers", "Distributors"],
     packaging: "20-count retail display card · 12-count wholesale display card",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "pai-precision-super-glue",
@@ -119,7 +119,7 @@ export const PRODUCTS: Product[] = [
     applications: ["Plastic", "Wood", "Metal", "Leather", "Glass", "Ceramics", "Rubber"],
     industries: ["Retail", "Hardware", "Repair & maintenance"],
     packaging: "Single-tube blister card · Box pack",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "asiafix-edge-ultra-fixer",
