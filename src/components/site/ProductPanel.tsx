@@ -5,12 +5,14 @@ import { productMailto, productWhatsapp, TBP } from "@/lib/site";
 import { EmailButton, WhatsAppButton } from "./ContactButtons";
 
 export function SpecTable({ product }: { product: Product }) {
-  const rows = [
-    ...product.specs.slice(0, 3),
-    { label: "Application", value: product.applications.join(", ") },
-    { label: "Packaging", value: product.packaging },
-    ...product.specs.slice(3),
-  ];
+  const rows = product.specsOnly
+    ? product.specs
+    : [
+        ...product.specs.slice(0, 3),
+        { label: "Application", value: product.applications.join(", ") },
+        { label: "Packaging", value: product.packaging },
+        ...product.specs.slice(3),
+      ];
   return (
     <dl className="divide-y border-y">
       {rows.map((r) => (
