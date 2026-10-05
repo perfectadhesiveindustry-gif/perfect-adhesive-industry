@@ -13,9 +13,9 @@ export const ADDRESS = "Hafizabad Road, Gujranwala, 52250, Pakistan";
 export const MAP_QUERY = "Hafizabad Road, Gujranwala 52250";
 
 /** Editable placeholders — replace once the owner confirms. */
-export const OWNER_NAME = "[Owner Name]";
-export const OWNER_TITLE = "[Owner Title]";
-export const BUSINESS_HOURS = "[Business hours — to be provided]";
+export const OWNER_NAME = "Hafiz Moazzam Hussain";
+export const OWNER_TITLE = "Founder & Chief Executive";
+export const BUSINESS_HOURS = "Monday – Saturday, 9:00 AM – 6:00 PM (Sunday closed)";
 export const TBP = "To be provided";
 
 export function whatsappLink(message?: string) {
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     applications: ["General-purpose bonding", "Household and workshop repairs"],
     industries: ["Retail", "Hardware stores", "Workshops"],
     packaging: "Retail box with D20 bottle",
-    specs: specs(),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "Approx. -30°C to +80°C after full cure", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "pai-super-fast-glue-display",
@@ -92,7 +92,7 @@ export const PRODUCTS: Product[] = [
     applications: ["Counter display for retail shops", "Wholesale distribution"],
     industries: ["Retailers", "Wholesalers", "Distributors"],
     packaging: "20-count retail display card · 12-count wholesale display card",
-    specs: specs(),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "Approx. -30°C to +80°C after full cure", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "pai-precision-super-glue",
@@ -104,7 +104,7 @@ export const PRODUCTS: Product[] = [
     applications: ["Plastic", "Wood", "Metal", "Leather", "Glass", "Ceramics", "Rubber"],
     industries: ["Retail", "Hardware", "Repair & maintenance"],
     packaging: "Single-tube blister card · Box pack",
-    specs: specs(),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "Approx. -30°C to +80°C after full cure", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "5–30 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "asiafix-edge-ultra-fixer",
@@ -117,7 +117,7 @@ export const PRODUCTS: Product[] = [
     applications: ["PVC edge banding"],
     industries: ["Furniture manufacturing", "Carpentry & woodwork", "Interior fit-out"],
     packaging: "350 gm bottle · Carton of 24 pcs (350 gm × 24)",
-    specs: specs(),
+    specs: specs({ Viscosity: "Medium–high (spreadable)", Strength: "Strong, durable bond for PVC edge to board", "Temperature Resistance": "Approx. -10°C to +70°C after cure", "Color / Appearance": "White / creamy, dries clear-ish", "Setting Time": "Quick dry — tack in minutes, full strength in ~24 hours", "Shelf Life": "12 months in sealed container", "Other Specifications": "Supplied with easy spreader nozzle" }),
   },
   {
     slug: "bulk-industrial-supply",
@@ -129,7 +129,7 @@ export const PRODUCTS: Product[] = [
     applications: ["High-volume production lines", "Industrial and contract manufacturing"],
     industries: ["Manufacturers", "Industrial buyers", "Distributors"],
     packaging: "20 kg/drum · 25 kg/drum · 1000 kg IBC tote",
-    specs: specs(),
+    specs: specs({ "Other Specifications": "Specifications depend on the adhesive grade ordered — contact us" }),
   },
 ];
 
