@@ -1,8 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Boxes, Factory, MessageCircle, PackageCheck, ShieldCheck, Truck } from "lucide-react";
-import staff from "@/assets/staff.jpg.asset.json";
+import { ArrowRight, Boxes, Factory, MessageCircle, PackageCheck, Truck } from "lucide-react";
 import owner from "@/assets/owner.jpg.asset.json";
-import superFastGlue from "@/assets/super-fast-glue.jpg.asset.json";
 import { InquiryForm } from "@/components/site/InquiryForm";
 import { EmailButton, WhatsAppButton, btn } from "@/components/site/ContactButtons";
 import { ADDRESS, COMPANY, EMAIL, OWNER_NAME, OWNER_TITLE, PRODUCTS, WHATSAPP_DISPLAY, mailtoLink, productWhatsapp, whatsappLink } from "@/lib/site";
@@ -10,10 +8,10 @@ import { ADDRESS, COMPANY, EMAIL, OWNER_NAME, OWNER_TITLE, PRODUCTS, WHATSAPP_DI
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Perfect Adhesive Industry (P.A.I) — Adhesive Manufacturer, Gujranwala" },
+      { title: "Perfect Adhesive Industry (P.A.I) â€” Adhesive Manufacturer, Gujranwala" },
       { name: "description", content: "P.A.I super glue, Asiafix Edge PVC edge-banding adhesive and bulk industrial adhesive supply from Gujranwala, Pakistan." },
       { property: "og:title", content: "Perfect Adhesive Industry (P.A.I)" },
-      { property: "og:description", content: "Adhesive manufacturer and supplier — super glue, edge-banding adhesive and bulk supply." },
+      { property: "og:description", content: "Adhesive manufacturer and supplier â€” super glue, edge-banding adhesive and bulk supply." },
     ],
   }),
   component: Home,
@@ -34,12 +32,12 @@ function Home() {
         <div className="blueprint absolute inset-0 opacity-40" />
         <div className="container-x relative grid items-center gap-10 py-16 md:py-24 lg:grid-cols-[1.05fr_1fr]">
           <div className="fade-up">
-            <p className="eyebrow text-signal">Adhesive Manufacturer · Gujranwala, Pakistan</p>
+            <p className="eyebrow text-signal">Adhesive Manufacturer Â· Gujranwala, Pakistan</p>
             <h1 className="mt-5 text-4xl font-black leading-[1.02] md:text-6xl">
               Perfect Adhesive Industry
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted">
-              Makers of P.A.I Super Glue and Asiafix Edge — adhesives for retail shelves, workshops,
+              Makers of P.A.I Super Glue and Asiafix Edge â€” adhesives for retail shelves, workshops,
               furniture makers and industrial buyers.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -49,7 +47,7 @@ function Home() {
             </div>
           </div>
           <div className="fade-up relative" style={{ animationDelay: "120ms" }}>
-            <img src={superFastGlue.url} alt="P.A.I Super Fast Glue box and D20 bottle" className="w-full border border-ink-line shadow-2xl" />
+            <img src="/products/pai-super-fast-glue-20gm.png" alt="P.A.I Super Fast Glue box and D20 bottle" className="w-full border border-ink-line shadow-2xl" />
             <div className="absolute -bottom-4 left-4 bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">P.A.I Super Fast Glue</div>
           </div>
         </div>
@@ -115,34 +113,13 @@ function Home() {
         </div>
       </section>
 
-      {/* Manufacturing / quality */}
-      <section className="bg-ink text-ink-foreground">
-        <div className="container-x grid items-center gap-10 py-20 lg:grid-cols-2">
-          <img src={staff.url} alt="The Perfect Adhesive Industry team at the production facility" loading="lazy" className="w-full border border-ink-line" />
-          <div>
-            <p className="eyebrow text-signal">Manufacturing & quality</p>
-            <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">Our team, our facility.</h2>
-            <p className="mt-5 leading-relaxed text-ink-muted">
-              Production, packing and quality checks are handled by the P.A.I team at our Gujranwala facility.
-              Every batch is packed under the P.A.I and Asiafix brands and dispatched to retailers, distributors
-              and industrial customers.
-            </p>
-            <ul className="mt-6 space-y-3 text-sm">
-              {["Consistent packaging across retail, wholesale and bulk", "Dedicated team for production and quality checks", "Direct communication with the manufacturer"].map((t) => (
-                <li key={t} className="flex gap-3"><ShieldCheck className="size-5 shrink-0 text-signal" />{t}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
       {/* Owner */}
       <section className="container-x grid items-center gap-10 py-20 md:grid-cols-[minmax(0,22rem)_1fr]">
         <img src={owner.url} alt={`${OWNER_NAME}, ${COMPANY}`} loading="lazy" className="aspect-[4/5] w-full object-cover object-top" />
         <div>
           <p className="eyebrow text-primary">Leadership</p>
           <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">{OWNER_NAME}</h2>
-          <p className="mt-1 font-mono text-sm uppercase tracking-wider text-muted-foreground">{OWNER_TITLE} · {COMPANY}</p>
+          <p className="mt-1 font-mono text-sm uppercase tracking-wider text-muted-foreground">{OWNER_TITLE} Â· {COMPANY}</p>
           <p className="mt-5 max-w-xl leading-relaxed text-muted-foreground">
             Hafiz Moazzam Hussain leads Perfect Adhesive Industry with a focus on consistent quality, honest dealing and dependable supply. Under his direction, P.A.I serves retailers, distributors and manufacturers with adhesives they can trust, backed by direct, personal service.
           </p>
@@ -154,7 +131,7 @@ function Home() {
       <section className="bg-primary text-primary-foreground">
         <div className="container-x flex flex-col items-start justify-between gap-6 py-14 md:flex-row md:items-center">
           <div>
-            <h2 className="text-2xl font-extrabold md:text-3xl">Customers & distributors — let's talk.</h2>
+            <h2 className="text-2xl font-extrabold md:text-3xl">Customers & distributors â€” let's talk.</h2>
             <p className="mt-2 opacity-90">Ask about products, wholesale packs or bulk supply.</p>
           </div>
           <div className="flex flex-wrap gap-3">

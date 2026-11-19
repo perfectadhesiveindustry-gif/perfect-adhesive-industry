@@ -1,13 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import owner from "@/assets/owner.jpg.asset.json";
-import staff from "@/assets/staff.jpg.asset.json";
 import { EmailButton, WhatsAppButton } from "@/components/site/ContactButtons";
 import { COMPANY, OWNER_NAME, OWNER_TITLE, mailtoLink, whatsappLink } from "@/lib/site";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — Perfect Adhesive Industry (P.A.I)" },
+      { title: "About Us â€” Perfect Adhesive Industry (P.A.I)" },
       { name: "description", content: "Company profile of Perfect Adhesive Industry, adhesive manufacturer in Gujranwala, Pakistan." },
       { property: "og:title", content: "About Perfect Adhesive Industry" },
       { property: "og:description", content: "Who we are, how we work, and the people behind P.A.I adhesives." },
@@ -19,7 +18,7 @@ export const Route = createFileRoute("/about")({
 const PILLARS = [
   { t: "Professional identity", d: "A registered adhesive company trading under the P.A.I and Asiafix brands." },
   { t: "Manufacturing expertise", d: "Instant super glues and PVC edge-banding adhesive produced and packed in-house." },
-  { t: "Commitment to quality", d: "Production and packing handled by our own team with checks at every stage." },
+  { t: "Commitment to quality", d: "A consistent approach to product quality, packaging and dependable supply." },
   { t: "Customer focus", d: "Direct contact with the manufacturer for retailers, distributors and industrial buyers." },
   { t: "Product reliability", d: "Consistent formulations and packaging customers can recognise and reorder." },
   { t: "Industrial approach", d: "Supply from single retail packs up to 1000 kg industrial totes." },
@@ -37,7 +36,7 @@ function About() {
         </div>
       </section>
 
-      <section className="container-x grid gap-10 py-20 lg:grid-cols-2">
+      <section className="container-x py-20">
         <div>
           <p className="eyebrow text-primary">Background</p>
           <h2 className="mt-3 text-3xl font-extrabold">Company profile</h2>
@@ -47,7 +46,6 @@ function About() {
             Ultra Fixer for PVC edge banding, with bulk supply available for manufacturers.
           </p>
                   </div>
-        <img src={staff.url} alt="P.A.I team at the production facility" className="w-full border" />
       </section>
 
       <section className="border-y bg-secondary/60 py-20">

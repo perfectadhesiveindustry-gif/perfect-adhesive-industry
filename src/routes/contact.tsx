@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Perfect Adhesive Industry (P.A.I)" },
-      { name: "description", content: "Contact Perfect Adhesive Industry on WhatsApp +92 312 7174808 or email. Hafizabad Road, Gujranwala." },
+      { name: "description", content: "Contact Perfect Adhesive Industry on WhatsApp +92 308 6414402 or email. Hafizabad Road, Gujranwala." },
       { property: "og:title", content: "Contact Perfect Adhesive Industry" },
       { property: "og:description", content: "Request product information via WhatsApp, email or the inquiry form." },
     ],

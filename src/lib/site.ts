@@ -1,22 +1,15 @@
-import superFastGlue from "@/assets/super-fast-glue.jpg.asset.json";
-import displayCards from "@/assets/display-cards.jpg.asset.json";
-import asiafixEdge from "@/assets/asiafix-edge.jpg.asset.json";
-import asiafixCartons from "@/assets/asiafix-cartons.jpg.asset.json";
 import bulkPackaging from "@/assets/bulk-packaging.jpg.asset.json";
-import precisionGlue from "@/assets/precision-super-glue.jpg.asset.json";
-import sfg50 from "@/assets/super-fast-glue-50gm.jpg.asset.json";
-
 export const COMPANY = "Perfect Adhesive Industry";
-export const WHATSAPP_DISPLAY = "+92 312 7174808";
-export const WHATSAPP_DIGITS = "923127174808";
-export const EMAIL = "perfectadhesiveindustry@gmail.com";
+export const WHATSAPP_DISPLAY = "+92 308 6414402";
+export const WHATSAPP_DIGITS = "923086414402";
+export const EMAIL = "contact@pai-adhesive.pk";
 export const ADDRESS = "Hafizabad Road, Gujranwala, 52250, Pakistan";
 export const MAP_QUERY = "Hafizabad Road, Gujranwala 52250";
 
-/** Editable placeholders — replace once the owner confirms. */
+/** Editable placeholders â€” replace once the owner confirms. */
 export const OWNER_NAME = "Hafiz Moazzam Hussain";
 export const OWNER_TITLE = "Founder & Chief Executive";
-export const BUSINESS_HOURS = "Monday – Saturday, 9:00 AM – 6:00 PM (Sunday closed)";
+export const BUSINESS_HOURS = "Monday â€“ Saturday, 9:00 AM â€“ 6:00 PM (Sunday closed)";
 export const TBP = "To be provided";
 
 export function whatsappLink(message?: string) {
@@ -31,7 +24,7 @@ export function productWhatsapp(name: string) {
   );
 }
 
-export function mailtoLink(subject = `Product Inquiry — ${COMPANY}`, body?: string) {
+export function mailtoLink(subject = `Product Inquiry â€” ${COMPANY}`, body?: string) {
   const params = [`subject=${encodeURIComponent(subject)}`];
   if (body) params.push(`body=${encodeURIComponent(body)}`);
   return `mailto:${EMAIL}?${params.join("&")}`;
@@ -39,7 +32,7 @@ export function mailtoLink(subject = `Product Inquiry — ${COMPANY}`, body?: st
 
 export function productMailto(name: string) {
   return mailtoLink(
-    `Product Inquiry: ${name} — ${COMPANY}`,
+    `Product Inquiry: ${name} â€” ${COMPANY}`,
     `Hello ${COMPANY},\n\nI am interested in your ${name}. Please provide me with more information.\n\nThank you.`,
   );
 }
@@ -76,76 +69,78 @@ export const PRODUCTS: Product[] = [
   {
     slug: "pai-super-fast-glue-50gm",
     name: "P.A.I Super Fast Glue 50gm",
-    line: "50gm bottle · Available in 1g, 2g, 20g, 50g",
-    image: sfg50.url,
+    line: "50gm bottle Â· Available in 1g, 2g, 20g, 50g",
+    image: "/products/pai-super-fast-glue-50gm.png",
+    gallery: ["/products/pai-super-fast-glue-50gm-carton.png", "/products/pai-super-fast-glue-20gm.png", "/products/pai-super-fast-glue-20gm-carton.png"],
     summary:
       "P.A.I Super Fast Glue in a 50gm bottle with spare nozzles, supplied in single and multi-pack boxes. Also available in 1g, 2g and 20g sizes.",
     applications: ["Metals", "Rubber", "Plastic", "Wood", "Ceramics"],
     industries: ["Retail", "Hardware stores", "Workshops", "Furniture & fittings"],
-    packaging: "50gm bottle in individual box · Multi-pack carton · Sizes: 1g, 2g, 20g, 50g",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive · Spare nozzles included" }),
+    packaging: "50gm bottle in individual box Â· Multi-pack carton Â· Sizes: 1g, 2g, 20g, 50g",
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20Â°C to 25Â°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3â€“5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive Â· Spare nozzles included" }),
   },
   {
     slug: "pai-super-fast-glue",
     name: "P.A.I Super Fast Glue",
-    line: "Instant adhesive · D20 bottle",
-    image: superFastGlue.url,
+    line: "Instant adhesive Â· D20 bottle",
+    image: "/products/pai-super-fast-glue-20gm.png",
+    gallery: ["/products/pai-super-fast-glue-20gm-carton.png", "/products/pai-super-fast-glue-50gm.png"],
     summary:
       "P.A.I Super Fast Glue, supplied in retail box packaging with the P.A.I Super Glue D20 bottle.",
     applications: ["General-purpose bonding", "Household and workshop repairs"],
     industries: ["Retail", "Hardware stores", "Workshops"],
     packaging: "Retail box with D20 bottle",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20Â°C to 25Â°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3â€“5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "pai-super-fast-glue-display",
-    name: "P.A.I Super Fast Glue — Display Cards",
-    line: "20-count retail · 12-count wholesale",
-    image: displayCards.url,
+    name: "P.A.I Super Fast Glue â€” Display Cards",
+    line: "20-count retail Â· 12-count wholesale",
+    image: "/products/pai-super-fast-glue-display-cards.png",
     summary:
       "P.A.I Super Fast Glue tubes mounted on branded display cards, available as a 20-count retail display and a 12-count wholesale display.",
     applications: ["Counter display for retail shops", "Wholesale distribution"],
     industries: ["Retailers", "Wholesalers", "Distributors"],
-    packaging: "20-count retail display card · 12-count wholesale display card",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
+    packaging: "20-count retail display card Â· 12-count wholesale display card",
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20Â°C to 25Â°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3â€“5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "pai-precision-super-glue",
     name: "P.A.I Precision / Extra Super Glue",
     line: "Single-tube card & box pack",
-    image: precisionGlue.url,
+    image: "/products/pai-precision-extra-super-glue.png",
     summary:
       "P.A.I Precision Super Glue on a single-tube card, alongside the P.A.I Extra Super Glue box pack.",
     applications: ["Plastic", "Wood", "Metal", "Leather", "Glass", "Ceramics", "Rubber"],
     industries: ["Retail", "Hardware", "Repair & maintenance"],
-    packaging: "Single-tube blister card · Box pack",
-    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3–5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
+    packaging: "Single-tube blister card Â· Box pack",
+    specs: specs({ Viscosity: "Low (thin, fast-flowing liquid)", Strength: "High bond strength on most rigid materials", "Temperature Resistance": "20Â°C to 25Â°C", "Color / Appearance": "Clear, colourless liquid", "Setting Time": "3â€“5 seconds (full cure ~24 hours)", "Shelf Life": "12 months unopened, stored cool and dry", "Other Specifications": "Cyanoacrylate-based instant adhesive" }),
   },
   {
     slug: "asiafix-edge-ultra-fixer",
     name: "Asiafix Edge Ultra Fixer",
     line: "PVC edge banding adhesive",
-    image: asiafixEdge.url,
-    gallery: [asiafixCartons.url],
+    image: "/products/asiafix-edge-ultra-fixer.png",
+    gallery: ["/products/asiafix-edge-cartons.png"],
     summary:
-      "Asiafix Edge Ultra Fixer by P.A.I — fast drying with an easy spreader, made specially for PVC edge banding.",
+      "Asiafix Edge Ultra Fixer by P.A.I â€” fast drying with an easy spreader, made specially for PVC edge banding.",
     applications: ["PVC edge banding"],
     industries: ["Furniture manufacturing", "Carpentry & woodwork", "Interior fit-out"],
-    packaging: "350 gm bottle · Carton of 24 pcs (350 gm × 24)",
-    specs: specs({ Viscosity: "Medium–high (spreadable)", Strength: "Strong, durable bond for PVC edge to board", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "White / creamy, dries clear-ish", "Setting Time": "Quick dry — tack in minutes, full strength in ~24 hours", "Shelf Life": "12 months in sealed container", "Other Specifications": "Supplied with easy spreader nozzle" }),
+    packaging: "350 gm bottle Â· Carton of 24 pcs (350 gm Ã— 24)",
+    specs: specs({ Viscosity: "Mediumâ€“high (spreadable)", Strength: "Strong, durable bond for PVC edge to board", "Temperature Resistance": "20Â°C to 25Â°C", "Color / Appearance": "White / creamy, dries clear-ish", "Setting Time": "Quick dry â€” tack in minutes, full strength in ~24 hours", "Shelf Life": "12 months in sealed container", "Other Specifications": "Supplied with easy spreader nozzle" }),
   },
   {
     slug: "bulk-industrial-supply",
     name: "Bulk Industrial Supply",
-    line: "100 kg · 500 kg · 1000 kg",
+    line: "100 kg Â· 500 kg Â· 1000 kg",
     image: bulkPackaging.url,
     summary:
       "Adhesive supplied in bulk industrial containers for manufacturers and high-volume buyers.",
     applications: ["High-volume production lines", "Industrial and contract manufacturing"],
     industries: ["Manufacturers", "Industrial buyers", "Distributors"],
-    packaging: "100 kg · 500 kg · 1000 kg",
+    packaging: "100 kg Â· 500 kg Â· 1000 kg",
     specsOnly: true,
-    specs: [{ label: "Weight", value: "100 kg · 500 kg · 1000 kg" }],
+    specs: [{ label: "Weight", value: "100 kg Â· 500 kg Â· 1000 kg" }],
   },
 ];
 
