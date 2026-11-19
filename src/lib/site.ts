@@ -24,9 +24,9 @@ export function productWhatsapp(name: string) {
 }
 
 export function mailtoLink(subject = `Product Inquiry — ${COMPANY}`, body?: string) {
-  const params = [`subject=${encodeURIComponent(subject)}`];
-  if (body) params.push(`body=${encodeURIComponent(body)}`);
-  return `mailto:${EMAIL}?${params.join("&")}`;
+  const params = new URLSearchParams({ view: "cm", fs: "1", to: EMAIL, su: subject });
+  if (body) params.set("body", body);
+  return `https://mail.google.com/mail/?${params.toString()}`;
 }
 
 export function productMailto(name: string) {
