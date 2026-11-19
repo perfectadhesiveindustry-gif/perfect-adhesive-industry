@@ -1,4 +1,3 @@
-import bulkPackaging from "@/assets/bulk-packaging.jpg.asset.json";
 export const COMPANY = "Perfect Adhesive Industry";
 export const WHATSAPP_DISPLAY = "+92 308 6414402";
 export const WHATSAPP_DIGITS = "923086414402";
@@ -128,19 +127,6 @@ export const PRODUCTS: Product[] = [
     industries: ["Furniture manufacturing", "Carpentry & woodwork", "Interior fit-out"],
     packaging: "350 gm bottle Â· Carton of 24 pcs (350 gm Ã— 24)",
     specs: specs({ Viscosity: "Mediumâ€“high (spreadable)", Strength: "Strong, durable bond for PVC edge to board", "Temperature Resistance": "20Â°C to 25Â°C", "Color / Appearance": "White / creamy, dries clear-ish", "Setting Time": "Quick dry â€” tack in minutes, full strength in ~24 hours", "Shelf Life": "12 months in sealed container", "Other Specifications": "Supplied with easy spreader nozzle" }),
-  },
-  {
-    slug: "bulk-industrial-supply",
-    name: "Bulk Industrial Supply",
-    line: "100 kg Â· 500 kg Â· 1000 kg",
-    image: bulkPackaging.url,
-    summary:
-      "Adhesive supplied in bulk industrial containers for manufacturers and high-volume buyers.",
-    applications: ["High-volume production lines", "Industrial and contract manufacturing"],
-    industries: ["Manufacturers", "Industrial buyers", "Distributors"],
-    packaging: "100 kg Â· 500 kg Â· 1000 kg",
-    specsOnly: true,
-    specs: [{ label: "Weight", value: "100 kg Â· 500 kg Â· 1000 kg" }],
   },
 ];
 

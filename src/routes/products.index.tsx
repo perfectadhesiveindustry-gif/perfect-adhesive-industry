@@ -6,9 +6,9 @@ export const Route = createFileRoute("/products/")({
   head: () => ({
     meta: [
       { title: "Products — Perfect Adhesive Industry (P.A.I)" },
-      { name: "description", content: "Catalogue of P.A.I super glues, Asiafix Edge PVC edge-banding adhesive and bulk industrial supply." },
+      { name: "description", content: "Catalogue of P.A.I super glues and Asiafix Edge PVC edge-banding adhesive." },
       { property: "og:title", content: "P.A.I Product Catalogue" },
-      { property: "og:description", content: "Super glue, edge-banding adhesive and bulk supply from Perfect Adhesive Industry." },
+      { property: "og:description", content: "Super glue and edge-banding adhesive from Perfect Adhesive Industry." },
     ],
   }),
   component: Products,
