@@ -35,7 +35,7 @@ export function ProductPanel({ product, index }: { product: Product; index: numb
           src={product.image}
           alt={product.name}
           loading="lazy"
-          className="aspect-[4/3] h-full w-full scale-[1.12] object-contain p-1 transition-transform duration-500 group-hover:scale-[1.18]"
+          className="aspect-[4/5] h-full w-full scale-[1.10] object-contain p-1 transition-transform duration-500 group-hover:scale-[1.18]"
         />
         <span className="eyebrow absolute left-4 top-4 bg-ink px-2 py-1 text-ink-foreground">
           {String(index + 1).padStart(2, "0")}

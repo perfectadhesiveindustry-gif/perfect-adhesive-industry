@@ -80,7 +80,7 @@ function Home() {
             {PRODUCTS.map((p) => (
               <article key={p.slug} className="group flex flex-col border bg-card">
                 <Link to="/products/$slug" params={{ slug: p.slug }} className="block overflow-hidden bg-muted">
-                  <img src={p.image} alt={p.name} loading="lazy" className="aspect-[4/3] w-full object-contain p-3 transition-transform duration-500 group-hover:scale-[1.03]" />
+                  <img src={p.image} alt={p.name} loading="lazy" className="aspect-[4/5] w-full scale-[1.08] object-contain p-1 transition-transform duration-500 group-hover:scale-[1.14]" />
                 </Link>
                 <div className="flex flex-1 flex-col p-5">
                   <p className="eyebrow text-muted-foreground">{p.line}</p>

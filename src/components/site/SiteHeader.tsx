@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Mail, Menu, MessageCircle, X } from "lucide-react";
 import { useState } from "react";
-import logo from "@/assets/logo.png.asset.json";
 import { COMPANY, EMAIL, WHATSAPP_DISPLAY, mailtoLink, whatsappLink } from "@/lib/site";
 
 const NAV = [
@@ -14,7 +13,7 @@ const NAV = [
 export function Logo({ light }: { light?: boolean }) {
   return (
     <Link to="/" className="flex items-center gap-3">
-      <img src={logo.url} alt="" className="h-9 w-auto" />
+      <span aria-hidden="true" className={`grid size-10 shrink-0 place-items-center rounded-sm bg-primary font-display text-sm font-black tracking-tight text-primary-foreground ${light ? "ring-1 ring-white/20" : ""}`}>PAI</span>
       <span className="leading-none">
         <span className={`block font-display text-lg font-extrabold tracking-tight ${light ? "text-ink-foreground" : "text-foreground"}`}>
           P.A.I
