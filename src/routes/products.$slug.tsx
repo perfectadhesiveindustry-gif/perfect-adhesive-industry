@@ -38,8 +38,8 @@ function ProductDetail() {
       </div>
       <section className="container-x grid gap-10 py-8 lg:grid-cols-2">
         <div className="space-y-4">
-          <img src={p.image} alt={p.name} className="w-full border bg-muted object-contain" />
-          {p.gallery?.map((g) => <img key={g} src={g} alt={`${p.name} packaging`} className="w-full border bg-muted object-contain" />)}
+          <img src={p.image} alt={p.name} className="max-h-[560px] w-full scale-[1.08] border bg-muted object-contain p-1" />
+          {p.gallery?.map((g) => <img key={g} src={g} alt={`${p.name} packaging`} className="max-h-[460px] w-full scale-[1.06] border bg-muted object-contain p-1" />)}
         </div>
         <div>
           <p className="eyebrow text-primary">{p.line}</p>

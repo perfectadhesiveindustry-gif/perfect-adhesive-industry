@@ -30,12 +30,12 @@ export function SpecTable({ product }: { product: Product }) {
 export function ProductPanel({ product, index }: { product: Product; index: number }) {
   return (
     <article id={product.slug} className="grid overflow-hidden border bg-card lg:grid-cols-2">
-      <Link to="/products/$slug" params={{ slug: product.slug }} className="group relative block bg-muted">
+      <Link to="/products/$slug" params={{ slug: product.slug }} className="group relative block overflow-hidden bg-muted">
         <img
           src={product.image}
           alt={product.name}
           loading="lazy"
-          className="aspect-[4/3] h-full w-full object-contain p-4 transition-transform duration-500 group-hover:scale-[1.02]"
+          className="aspect-[4/3] h-full w-full scale-[1.12] object-contain p-1 transition-transform duration-500 group-hover:scale-[1.18]"
         />
         <span className="eyebrow absolute left-4 top-4 bg-ink px-2 py-1 text-ink-foreground">
           {String(index + 1).padStart(2, "0")}
