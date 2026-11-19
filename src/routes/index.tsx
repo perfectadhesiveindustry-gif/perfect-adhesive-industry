@@ -8,10 +8,10 @@ import { ADDRESS, COMPANY, EMAIL, OWNER_NAME, OWNER_TITLE, PRODUCTS, WHATSAPP_DI
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Perfect Adhesive Industry (P.A.I) â€” Adhesive Manufacturer, Gujranwala" },
+      { title: "Perfect Adhesive Industry (P.A.I) — Adhesive Manufacturer, Gujranwala" },
       { name: "description", content: "P.A.I super glue, Asiafix Edge PVC edge-banding adhesive and bulk industrial adhesive supply from Gujranwala, Pakistan." },
       { property: "og:title", content: "Perfect Adhesive Industry (P.A.I)" },
-      { property: "og:description", content: "Adhesive manufacturer and supplier â€” super glue, edge-banding adhesive and bulk supply." },
+      { property: "og:description", content: "Adhesive manufacturer and supplier — super glue, edge-banding adhesive and bulk supply." },
     ],
   }),
   component: Home,
@@ -32,12 +32,12 @@ function Home() {
         <div className="blueprint absolute inset-0 opacity-40" />
         <div className="container-x relative grid items-center gap-10 py-16 md:py-24 lg:grid-cols-[1.05fr_1fr]">
           <div className="fade-up">
-            <p className="eyebrow text-signal">Adhesive Manufacturer Â· Gujranwala, Pakistan</p>
+            <p className="eyebrow text-signal">Adhesive Manufacturer · Gujranwala, Pakistan</p>
             <h1 className="mt-5 text-4xl font-black leading-[1.02] md:text-6xl">
               Perfect Adhesive Industry
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted">
-              Makers of P.A.I Super Glue and Asiafix Edge â€” adhesives for retail shelves, workshops,
+              Makers of P.A.I Super Glue and Asiafix Edge — adhesives for retail shelves, workshops,
               furniture makers and industrial buyers.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -119,7 +119,7 @@ function Home() {
         <div>
           <p className="eyebrow text-primary">Leadership</p>
           <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">{OWNER_NAME}</h2>
-          <p className="mt-1 font-mono text-sm uppercase tracking-wider text-muted-foreground">{OWNER_TITLE} Â· {COMPANY}</p>
+          <p className="mt-1 font-mono text-sm uppercase tracking-wider text-muted-foreground">{OWNER_TITLE} · {COMPANY}</p>
           <p className="mt-5 max-w-xl leading-relaxed text-muted-foreground">
             Hafiz Moazzam Hussain leads Perfect Adhesive Industry with a focus on consistent quality, honest dealing and dependable supply. Under his direction, P.A.I serves retailers, distributors and manufacturers with adhesives they can trust, backed by direct, personal service.
           </p>
@@ -131,7 +131,7 @@ function Home() {
       <section className="bg-primary text-primary-foreground">
         <div className="container-x flex flex-col items-start justify-between gap-6 py-14 md:flex-row md:items-center">
           <div>
-            <h2 className="text-2xl font-extrabold md:text-3xl">Customers & distributors â€” let's talk.</h2>
+            <h2 className="text-2xl font-extrabold md:text-3xl">Customers & distributors — let's talk.</h2>
             <p className="mt-2 opacity-90">Ask about products, wholesale packs or bulk supply.</p>
           </div>
           <div className="flex flex-wrap gap-3">

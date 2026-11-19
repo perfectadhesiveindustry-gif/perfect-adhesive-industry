@@ -6,7 +6,7 @@ import { COMPANY, OWNER_NAME, OWNER_TITLE, mailtoLink, whatsappLink } from "@/li
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us â€” Perfect Adhesive Industry (P.A.I)" },
+      { title: "About Us — Perfect Adhesive Industry (P.A.I)" },
       { name: "description", content: "Company profile of Perfect Adhesive Industry, adhesive manufacturer in Gujranwala, Pakistan." },
       { property: "og:title", content: "About Perfect Adhesive Industry" },
       { property: "og:description", content: "Who we are, how we work, and the people behind P.A.I adhesives." },
