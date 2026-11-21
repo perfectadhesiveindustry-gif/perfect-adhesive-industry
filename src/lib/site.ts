@@ -62,7 +62,7 @@ const specs = (overrides: Partial<Record<string, string>> = {}): Spec[] =>
     "Setting Time",
     "Shelf Life",
     "Other Specifications",
-  ].map((label) => ({ label, value: overrides[label] ?? TBP }));
+  ].filter((label) => overrides[label] !== "").map((label) => ({ label, value: overrides[label] ?? TBP }));
 
 export const PRODUCTS: Product[] = [
   {
@@ -138,11 +138,11 @@ export const PRODUCTS: Product[] = [
       "P.A.I Super Fast Glue Activator Spray. Contact P.A.I for product-specific usage guidance and pack details.",
     applications: ["For use with compatible adhesive systems; confirm suitability with P.A.I"],
     industries: ["Retail", "Hardware stores", "Workshops"],
-    packaging: "Spray can; pack size to be confirmed",
+    packaging: "200 ml spray can",
     specs: specs({
       Viscosity: "1500 CPS",
       Strength: "≥22 MPa",
-      "Temperature Resistance": "Not specified",
+      "Temperature Resistance": "",
       "Color / Appearance": "Clear / colourless",
       "Setting Time": "3 seconds",
       "Shelf Life": "36 months",
