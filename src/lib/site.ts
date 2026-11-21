@@ -136,7 +136,7 @@ export const PRODUCTS: Product[] = [
     image: "/products/pai-super-fast-glue-activator-spray-actual.jpg",
     summary:
       "P.A.I Super Fast Glue Activator Spray. Contact P.A.I for product-specific usage guidance and pack details.",
-    applications: ["For use with compatible adhesive systems; confirm suitability with P.A.I"],
+    applications: [],
     industries: ["Retail", "Hardware stores", "Workshops"],
     packaging: "200 ml spray can",
     specs: specs({
