@@ -47,7 +47,7 @@ function Home() {
             </div>
           </div>
           <div className="fade-up relative" style={{ animationDelay: "120ms" }}>
-            <img src="/products/pai-super-fast-glue-20gm.png" alt="P.A.I Super Fast Glue box and D20 bottle" className="w-full border border-ink-line shadow-2xl" />
+            <img src="/products/pai-super-fast-glue-20gm-actual.jpg" alt="P.A.I Super Fast Glue box and D20 bottle" className="w-full border border-ink-line shadow-2xl" />
             <div className="absolute -bottom-4 left-4 bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">P.A.I Super Fast Glue</div>
           </div>
         </div>
