@@ -141,7 +141,7 @@ export const PRODUCTS: Product[] = [
     packaging: "Spray can; pack size to be confirmed",
     specs: specs({
       Viscosity: "0.4–0.7 mPa·s",
-      Strength: "Adhesive-dependent",
+      Strength: "20 MPa",
       "Temperature Resistance": "Not specified",
       "Color / Appearance": "Clear / colourless",
       "Setting Time": "Approximately 30 seconds",
