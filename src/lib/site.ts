@@ -139,7 +139,15 @@ export const PRODUCTS: Product[] = [
     applications: ["For use with compatible adhesive systems; confirm suitability with P.A.I"],
     industries: ["Retail", "Hardware stores", "Workshops"],
     packaging: "Spray can; pack size to be confirmed",
-    specs: specs(),
+    specs: specs({
+      Viscosity: "Typical industry reference: 0.4–0.7 mPa·s (comparable activator products; P.A.I value not yet verified)",
+      Strength: "Activator does not provide bond strength on its own; final strength depends on the compatible cyanoacrylate adhesive and bonded materials",
+      "Temperature Resistance": "Not published for this P.A.I product; confirm with P.A.I before use in temperature-critical applications",
+      "Color / Appearance": "Typical reference: clear / colourless liquid; actual P.A.I formulation to be confirmed",
+      "Setting Time": "Typical reference: allow approximately 30 seconds for activator solvent to evaporate; adhesive fixture time varies by adhesive, materials and application",
+      "Shelf Life": "Comparable products commonly publish 12–24 months; P.A.I shelf life and storage conditions to be confirmed",
+      "Other Specifications": "For use with compatible cyanoacrylate instant adhesives. Reference values are based on comparable manufacturers' products and are not verified P.A.I test data. Consult P.A.I for the product-specific Technical Data Sheet and Safety Data Sheet.",
+    }),
   },
 ];
 
