@@ -22,7 +22,6 @@ function Products() {
         <div className="container-x relative py-16">
           <p className="eyebrow text-signal">Product Catalogue</p>
           <h1 className="mt-4 text-4xl font-black md:text-5xl">Our adhesives</h1>
-          <p className="mt-4 max-w-2xl text-ink-muted">Each product below lists its technical parameters. Values marked “To be provided” will be published once confirmed.</p>
         </div>
       </section>
       <section className="container-x space-y-8 py-16">
