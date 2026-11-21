@@ -69,8 +69,8 @@ export const PRODUCTS: Product[] = [
     slug: "pai-super-fast-glue-50gm",
     name: "P.A.I Super Fast Glue 50gm",
     line: "50gm bottle · Available in 1g, 2g, 20g, 50g",
-    image: "/products/pai-super-fast-glue-50gm.png",
-    gallery: ["/products/pai-super-fast-glue-50gm-carton.png", "/products/pai-super-fast-glue-20gm.jpg", "/products/pai-super-fast-glue-20gm-carton.jpg"],
+    image: "/products/pai-super-fast-glue-50gm-actual.jpg",
+    gallery: ["/products/pai-super-fast-glue-carton-stock-actual.jpg", "/products/pai-super-fast-glue-20gm-actual.jpg", "/products/pai-super-fast-glue-carton-actual.jpg", "/products/pai-super-fast-glue-carton-alt-actual.jpg"],
     summary:
       "P.A.I Super Fast Glue in a 50gm bottle with spare nozzles, supplied in single and multi-pack boxes. Also available in 1g, 2g and 20g sizes.",
     applications: ["Metals", "Rubber", "Plastic", "Wood", "Ceramics"],
@@ -82,8 +82,8 @@ export const PRODUCTS: Product[] = [
     slug: "pai-super-fast-glue",
     name: "P.A.I Super Fast Glue",
     line: "Instant adhesive · D20 bottle",
-    image: "/products/pai-super-fast-glue-20gm.jpg",
-    gallery: ["/products/pai-super-fast-glue-20gm-carton.jpg", "/products/pai-super-fast-glue-50gm.png"],
+    image: "/products/pai-super-fast-glue-20gm-actual.jpg",
+    gallery: ["/products/pai-super-fast-glue-carton-actual.jpg", "/products/pai-super-fast-glue-50gm-actual.jpg", "/products/pai-super-fast-glue-carton-alt-actual.jpg"],
     summary:
       "P.A.I Super Fast Glue, supplied in retail box packaging with the P.A.I Super Glue D20 bottle.",
     applications: ["General-purpose bonding", "Household and workshop repairs"],
@@ -95,7 +95,8 @@ export const PRODUCTS: Product[] = [
     slug: "pai-super-fast-glue-display",
     name: "P.A.I Super Fast Glue — Display Cards",
     line: "20-count retail · 12-count wholesale",
-    image: "/products/pai-super-fast-glue-display-cards.jpg",
+    image: "/products/pai-super-fast-glue-display-card-actual.jpg",
+    gallery: ["/products/pai-super-fast-glue-display-card-alt-actual.jpg"],
     summary:
       "P.A.I Super Fast Glue tubes mounted on branded display cards, available as a 20-count retail display and a 12-count wholesale display.",
     applications: ["Counter display for retail shops", "Wholesale distribution"],
@@ -107,7 +108,7 @@ export const PRODUCTS: Product[] = [
     slug: "pai-precision-super-glue",
     name: "P.A.I Precision / Extra Super Glue",
     line: "Single-tube card & box pack",
-    image: "/products/pai-precision-extra-super-glue.png",
+    image: "/products/pai-precision-extra-super-glue-actual.jpg",
     summary:
       "P.A.I Precision Super Glue on a single-tube card, alongside the P.A.I Extra Super Glue box pack.",
     applications: ["Plastic", "Wood", "Metal", "Leather", "Glass", "Ceramics", "Rubber"],
@@ -119,14 +120,26 @@ export const PRODUCTS: Product[] = [
     slug: "asiafix-edge-ultra-fixer",
     name: "Asiafix Edge Ultra Fixer",
     line: "PVC edge banding adhesive",
-    image: "/products/asiafix-edge-ultra-fixer.png",
-    gallery: ["/products/asiafix-edge-cartons.png"],
+    image: "/products/asiafix-edge-ultra-fixer-actual.jpg",
+    gallery: ["/products/asiafix-edge-cartons-actual.jpg"],
     summary:
       "Asiafix Edge Ultra Fixer by P.A.I — fast drying with an easy spreader, made specially for PVC edge banding.",
     applications: ["PVC edge banding"],
     industries: ["Furniture manufacturing", "Carpentry & woodwork", "Interior fit-out"],
     packaging: "350 gm bottle · Carton of 24 pcs (350 gm × 24)",
     specs: specs({ Viscosity: "Medium–high (spreadable)", Strength: "Strong, durable bond for PVC edge to board", "Temperature Resistance": "20°C to 25°C", "Color / Appearance": "White / creamy, dries clear-ish", "Setting Time": "Quick dry — tack in minutes, full strength in ~24 hours", "Shelf Life": "12 months in sealed container", "Other Specifications": "Supplied with easy spreader nozzle" }),
+  },
+  {
+    slug: "pai-super-fast-glue-activator-spray",
+    name: "P.A.I Super Fast Glue Activator Spray",
+    line: "Activator spray",
+    image: "/products/pai-super-fast-glue-activator-spray-actual.jpg",
+    summary:
+      "P.A.I Super Fast Glue Activator Spray. Contact P.A.I for product-specific usage guidance and pack details.",
+    applications: ["For use with compatible adhesive systems; confirm suitability with P.A.I"],
+    industries: ["Retail", "Hardware stores", "Workshops"],
+    packaging: "Spray can; pack size to be confirmed",
+    specs: specs(),
   },
 ];
 
