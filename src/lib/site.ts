@@ -70,7 +70,7 @@ export const PRODUCTS: Product[] = [
     name: "P.A.I Super Fast Glue 50gm",
     line: "50gm bottle · Available in 1g, 2g, 20g, 50g",
     image: "/products/pai-super-fast-glue-50gm.png",
-    gallery: ["/products/pai-super-fast-glue-50gm-carton.png", "/products/pai-super-fast-glue-20gm.png", "/products/pai-super-fast-glue-20gm-carton.png"],
+    gallery: ["/products/pai-super-fast-glue-50gm-carton.png", "/products/pai-super-fast-glue-20gm.jpg", "/products/pai-super-fast-glue-20gm-carton.jpg"],
     summary:
       "P.A.I Super Fast Glue in a 50gm bottle with spare nozzles, supplied in single and multi-pack boxes. Also available in 1g, 2g and 20g sizes.",
     applications: ["Metals", "Rubber", "Plastic", "Wood", "Ceramics"],
@@ -82,8 +82,8 @@ export const PRODUCTS: Product[] = [
     slug: "pai-super-fast-glue",
     name: "P.A.I Super Fast Glue",
     line: "Instant adhesive · D20 bottle",
-    image: "/products/pai-super-fast-glue-20gm.png",
-    gallery: ["/products/pai-super-fast-glue-20gm-carton.png", "/products/pai-super-fast-glue-50gm.png"],
+    image: "/products/pai-super-fast-glue-20gm.jpg",
+    gallery: ["/products/pai-super-fast-glue-20gm-carton.jpg", "/products/pai-super-fast-glue-50gm.png"],
     summary:
       "P.A.I Super Fast Glue, supplied in retail box packaging with the P.A.I Super Glue D20 bottle.",
     applications: ["General-purpose bonding", "Household and workshop repairs"],
@@ -95,7 +95,7 @@ export const PRODUCTS: Product[] = [
     slug: "pai-super-fast-glue-display",
     name: "P.A.I Super Fast Glue — Display Cards",
     line: "20-count retail · 12-count wholesale",
-    image: "/products/pai-super-fast-glue-display-cards.png",
+    image: "/products/pai-super-fast-glue-display-cards.jpg",
     summary:
       "P.A.I Super Fast Glue tubes mounted on branded display cards, available as a 20-count retail display and a 12-count wholesale display.",
     applications: ["Counter display for retail shops", "Wholesale distribution"],
